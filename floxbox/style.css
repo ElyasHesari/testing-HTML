@@ -13,4 +13,6 @@
 .menu {
   border: 1px solid #fff; /* for debuging */
   width: 900px;
+  display: flex;
+  justify-content: space-around;
 }
