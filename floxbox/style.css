@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: cursive;
+}
 .menu-container {
   display: flex;
   justify-content: center;
@@ -14,5 +17,17 @@
   border: 1px solid #fff; /* for debuging */
   width: 900px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.link {
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.login {
+  margin-left: 20px;
+}
+.date {
+  margin-left: 10px;
 }
