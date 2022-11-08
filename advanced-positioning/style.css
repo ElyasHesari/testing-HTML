@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 1200px;
+  font-family: cursive;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.example {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  background-color: #D6E9FE;
+  margin: 50px 0;
+}
+.item img {
+  display: block;
+}
