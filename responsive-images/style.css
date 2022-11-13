@@ -24,6 +24,9 @@
 
 .header {
   background-color: #B2D6FF;
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
 }
 
 .content {
@@ -45,6 +48,11 @@
 
 .feature-3 {
   background-color: #C8C6FA;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
 }
 
 
